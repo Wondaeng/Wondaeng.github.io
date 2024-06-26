@@ -320,11 +320,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
-      published: true
       future: true
       toc: true
       sidebar:
