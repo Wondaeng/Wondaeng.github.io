@@ -24,5 +24,6 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
+gem "github-pages"
 #    gem "jekyll-seo-tag"  # 추가 하고 싶은 플러그인
 end

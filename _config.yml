@@ -326,3 +326,6 @@ defaults:
       related: true
       published: true
       future: true
+      toc: true
+      sidebar:
+        nav: main
