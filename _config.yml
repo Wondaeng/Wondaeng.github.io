@@ -116,9 +116,9 @@ analytics:
 author:
   name             : "Wondaeng"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am a **clumsy** person."
+  location         : "South Korea"
+  email            : "rktvna@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -313,6 +313,14 @@ compress_html:
 
 # Defaults
 defaults:
+  # default
+  - scope:
+      path: ''
+    values:
+      layout: home
+      author_profile: true
+      sidebar:
+        nav: "sub_category"
   # _posts
   - scope:
       path: ""
@@ -327,4 +335,4 @@ defaults:
       future: true
       toc: true
       sidebar:
-        nav: "main"
+        nav: "sub_category"
