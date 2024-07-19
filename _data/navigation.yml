@@ -9,9 +9,7 @@ sub_category:
     children:
       - title: "Notice"
         url: /free-board/notice/
-  - title: "Programming"
+  - title: "Python"
     children:
-      - title: "Frontend"
-        url: /programming/frontend/
-      - title: "Python"
-        url: /programming/python/
+      - title: "Python Language Referene"
+        url: /python/plr/
